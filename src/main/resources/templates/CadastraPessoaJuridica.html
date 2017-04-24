@@ -19,7 +19,7 @@
 
 	<div class="container-fluid">
 
-		<form method="POST" th:object="${fisica}" class="form-vertical  js-form-loading">
+		<form method="POST" th:object="${juridica}" class="form-vertical  js-form-loading">
 	
 			<div class="row">
 				
@@ -40,13 +40,8 @@
 			</div>
 			
 			<div class="form-group">
-				<label for="cpf">CPF</label>
-				<input id="cpf" type="text" class="form-control" th:field="{cpf}"/>
-			</div>
-			
-			<div class="form-group">
-				<label for="rg">RG</label>
-				<input id="rg" type="text" class="form-control" th:field="{rg}"/>
+				<label for="cnpj">CNPJ</label>
+				<input id="cnpj" type="text" class="form-control" th:field="{cpf}"/>
 			</div>
 			
 			<div class="form-group">
